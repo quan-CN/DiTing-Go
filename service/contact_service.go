@@ -216,7 +216,7 @@ func Agree(c *gin.Context) {
 //
 //		@Summary	获取用户好友申请列表
 //	    @Produce 	json
-//		@Security ApiKeyAuth
+//		@Security 	ApiKeyAuth
 //		@Param		last_id	query	int					true	"last_id"
 //		@Param		limit	query	int					true	"limit"
 //		@Success	200	{object}	resp.ResponseData	"成功"
